@@ -1,7 +1,7 @@
 import argparse
 
 import cv2
-from BioAI.face_detector import FaceDetector
+from face_detector import FaceDetector
 def main(model):
     webcam = cv2.VideoCapture(0)
     face_detector = FaceDetector(model)
